@@ -1,4 +1,4 @@
-public class User {
+public class  User extends Main {
     private String firstname = new String();
     private String lastname = new String();
     private String email = new String();
@@ -49,13 +49,14 @@ public class User {
         this.password = password;
 
     }
-    public void saying(){
-        System.out.println(firstname);
-        System.out.println(lastname);
-        System.out.println(email);
-        System.out.println(password);
+
+    @Override
+    public String toString() {
+        return "\f firstname \n  lastname\n  email\n  password";
+
     }
 }
+
 
 
 
