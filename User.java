@@ -1,8 +1,8 @@
-public class  User extends Main {
-    private String firstname = new String();
-    private String lastname = new String();
-    private String email = new String();
-    private String password = new String();
+public class  User  {
+    private String firstname;
+    private String lastname;
+    private String email;
+    private String password;
 
     public User() {
 
@@ -52,15 +52,10 @@ public class  User extends Main {
 
     @Override
     public String toString() {
-        return "\f firstname \n  lastname\n  email\n  password";
+        return "\f FIRSTNAME_Ashot \n  LASTNAME_Aleqsanyan\n  EMAIL_aleqsanyan1996@mail.ru\n  PASSWORD_1234qwer";
 
     }
 }
-
-
-
-
-
 
 
 
