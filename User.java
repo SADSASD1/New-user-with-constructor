@@ -52,7 +52,7 @@ public class  User  {
 
     @Override
     public String toString() {
-        return "\f FIRSTNAME_Ashot \n  LASTNAME_Aleqsanyan\n  EMAIL_aleqsanyan1996@mail.ru\n  PASSWORD_1234qwer";
+        return "\f Ashot \n  Aleqsanyan\n  aleqsanyan1996@mail.ru\n  1234qwer";
 
     }
 }
