@@ -52,8 +52,7 @@ public class  User  {
 
     @Override
     public String toString() {
-        return "\f Ashot \n  Aleqsanyan\n  aleqsanyan1996@mail.ru\n  1234qwer";
-
+        return  " \n firstname"+":"+firstname+"\n lastname"+":"+lastname+"\n email"+":"+email+"\n password"+":"+password ;
     }
 }
 
