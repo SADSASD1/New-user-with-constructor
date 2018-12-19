@@ -1,8 +1,8 @@
-public class User {
-    private String firstname = new String();
-    private String lastname = new String();
-    private String email = new String();
-    private String password = new String();
+public class  User  {
+    private String firstname;
+    private String lastname;
+    private String email;
+    private String password;
 
     public User() {
 
@@ -49,17 +49,12 @@ public class User {
         this.password = password;
 
     }
-    public void saying(){
-        System.out.println(firstname);
-        System.out.println(lastname);
-        System.out.println(email);
-        System.out.println(password);
+
+    @Override
+    public String toString() {
+        return  " \n firstname"+":"+firstname+"\n lastname"+":"+lastname+"\n email"+":"+email+"\n password"+":"+password ;
     }
 }
-
-
-
-
 
 
 
