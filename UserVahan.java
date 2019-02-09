@@ -1,10 +1,10 @@
-public class  User   {
+public class  UserVahan   {
     private String firstname;
     private String lastname;
     private String email;
     private String password;
 
-    public User() {
+    public UserVahan() {
 
     }
 
@@ -42,7 +42,7 @@ public class  User   {
 
 
 
-    public User(String firstname, String lastname, String email, String password) {
+    public UserVahan(String firstname, String lastname, String email, String password) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.email = email;
@@ -55,6 +55,7 @@ public class  User   {
         return  " \n firstname"+":"+firstname+"\n lastname"+":"+lastname+"\n email"+":"+email+"\n password"+":"+password ;
     }
 }
+
 
 
 

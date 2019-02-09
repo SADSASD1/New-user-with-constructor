@@ -1,10 +1,10 @@
-public class  User   {
+public class  UserHayk  {
     private String firstname;
     private String lastname;
     private String email;
     private String password;
 
-    public User() {
+    public UserHayk() {
 
     }
 
@@ -42,7 +42,7 @@ public class  User   {
 
 
 
-    public User(String firstname, String lastname, String email, String password) {
+    public UserHayk(String firstname, String lastname, String email, String password) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.email = email;
