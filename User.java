@@ -53,6 +53,7 @@ public class  User   {
     @Override
     public String toString() {
         return  " \n firstname"+":"+firstname+"\n lastname"+":"+lastname+"\n email"+":"+email+"\n password"+":"+password ;
+
     }
 }
 
