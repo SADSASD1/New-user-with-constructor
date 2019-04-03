@@ -1,4 +1,4 @@
-public class  User  {
+public class  User   {
     private String firstname;
     private String lastname;
     private String email;
@@ -53,6 +53,7 @@ public class  User  {
     @Override
     public String toString() {
         return  " \n firstname"+":"+firstname+"\n lastname"+":"+lastname+"\n email"+":"+email+"\n password"+":"+password ;
+
     }
 }
 
