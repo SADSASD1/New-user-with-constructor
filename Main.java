@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 public class Main  {
 
@@ -7,7 +9,10 @@ public class Main  {
 
 
         String answer;
-        do {
+
+        do{
+
+
             Scanner firstname = new Scanner(System.in);
             System.out.println("Enter your firstname");
             String names = firstname.nextLine();
@@ -34,16 +39,40 @@ public class Main  {
             System.out.println("Your email is" + " " + passwords);
 
 
-            Scanner in = new Scanner(System.in);
+            Scanner input = new Scanner(System.in);
             System.out.println("Do you want to create another user");
-            answer = in.next();
+            answer = input.next();
 
-;
+
+            class User {
+
+                User us = new User();
+                User us1 = new User();
+                User us2 = new User();
+                User us3 = new User();
+                User us4 = new User();
+
+                List<User> users = new ArrayList<>() ;
+
+                public void User () {
+                    users.add(us);
+                    users.add(us1);
+                    users.add(us2);
+                    users.add(us3);
+                    users.add(us4);
+                    for (User users:users) {
+                        System.out.println(users.users);
+                    }
+                }
+            }
 
         }
 
 
+
         while (answer.equalsIgnoreCase("Yes"));
+
+        System.out.println();
     }
 
 
