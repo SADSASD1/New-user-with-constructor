@@ -11,32 +11,32 @@ public class Main  {
         String answer;
 
         do{
+            Scanner user_input=new Scanner(System.in);
 
-
-            Scanner firstname = new Scanner(System.in);
+            String firstname;
             System.out.println("Enter your firstname");
-            String names = firstname.nextLine();
+            firstname = user_input.next();
 
 
-            Scanner lastname = new Scanner(System.in);
+            String lastname;
             System.out.println("Enter your lastname");
-            String lastnames = lastname.nextLine();
+            lastname = user_input.next();
 
 
-            Scanner email = new Scanner(System.in);
+            String email;
             System.out.println("Enter your email");
-            String emails = email.nextLine();
+            email = user_input.next();
 
 
-            Scanner password = new Scanner(System.in);
+            String password;
             System.out.println("Enter your password");
-            String passwords = password.nextLine();
+            password = user_input.next();
 
 
-            System.out.println("Your firstname is" + " " + names);
-            System.out.println("Your lastname is" + " " + lastnames);
-            System.out.println("Your email is" + " " + emails);
-            System.out.println("Your email is" + " " + passwords);
+            System.out.println("Your firstname is" + " " + firstname);
+            System.out.println("Your lastname is" + " " + lastname);
+            System.out.println("Your email is" + " " + email);
+            System.out.println("Your email is" + " " + password);
 
 
             Scanner input = new Scanner(System.in);
@@ -61,7 +61,7 @@ public class Main  {
                     users.add(us3);
                     users.add(us4);
                     for (User users:users) {
-                        System.out.println(users.users);
+                        System.out.println(users);
                     }
                 }
             }
